@@ -24,7 +24,7 @@ def updt(total, progress,startTime):
     sys.stdout.write(text)
     sys.stdout.flush()
 
-gmaps = googlemaps.Client(key='AIzaSyB29luobkM9wtTMZgw72LtujACeuQT1TSM')
+gmaps = googlemaps.Client(key='Your Key')
 
 direcciones = glob.glob('CorteJun2022/dir/direcciones/*.csv')
 
